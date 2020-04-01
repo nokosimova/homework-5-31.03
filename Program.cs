@@ -78,7 +78,7 @@ namespace Project
             Console.WriteLine("]");
             Console.Write("Введите count = ");
             count = int.Parse(Console.ReadLine());
-            Console.Write("\nВведите index = ");
+            Console.Write("\nВведите(индексация начинается с 0) index = ");
             index = int.Parse(Console.ReadLine());
             int[] new_arr = new int[count];
             for (i = 0; i < count; i++) {
